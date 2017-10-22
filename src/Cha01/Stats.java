@@ -4,6 +4,9 @@ import edu.princeton.cs.algs4.Bag;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
+/**
+ * 背包用例
+ */
 public class Stats {
     public static void  main(String[] args){
         Bag<Double> numbers = new Bag<Double>();
