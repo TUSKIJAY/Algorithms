@@ -6,8 +6,8 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class FrequencyCounter {
     public static void main(String[] args){
-        int minlen = Integer.parseInt(args[0]);//最小键长
-        ST<String,Integer> st = new ST<String, Integer>();
+        int minlen = Integer.parseInt(args[0]);//最小键长(一次扫描的单词数量)
+        SequentialSearchST<String,Integer> st = new SequentialSearchST<>();
         while(!StdIn.isEmpty()){
             //构造符号表并统计频率
             String word = StdIn.readString();
@@ -21,11 +21,11 @@ public class FrequencyCounter {
         //找出出现频率最高的单词
         String max = "";
         st.put(max,0);
-        for (String word:st.keys()){
-            if (st.get(word) > st.get(max)){
+        for (String word:st.keys()) {
+            if (st.get(word) > st.get(max)) {
                 max = word;
             }
-            StdOut.println(max +" "+ st.get(max));
         }
+            StdOut.println(max +" "+ st.get(max));
     }
 }

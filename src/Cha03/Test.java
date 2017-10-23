@@ -5,17 +5,20 @@ import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 public class Test {
-    public static void main(String[] args){
-        ST<String,Integer>st;
-        st = new ST<String, Integer>();
-        //SequentialSearchST seq = new SequentialSearchST();
-
-        for (int i = 0;!StdIn.isEmpty();i++){
+    public static void main(String[] args) {
+        BinarySearchST<String, Integer> bst = new BinarySearchST<>(12);
+        for (int i = 0; !StdIn.isEmpty(); i++) {
             String key = StdIn.readString();
-            st.put(key,i);
+            bst.put(key, i);
         }
-        for (String s:st.keys()){
-            StdOut.println(s+" "+st.get(s));
-        }
+        //bst.delete("A");
+        bst.pull();
+        System.out.println("The key words number is "+ bst.get("P"));
+        //System.out.println("The arry size is "+bst.size());
+        bst.delete("P");
+        bst.pull();
+        //System.out.println("The key words number is "+ bst.rank("Z"));
+        //System.out.println("The arry size is "+bst.size());
+
     }
 }
