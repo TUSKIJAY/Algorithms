@@ -1,5 +1,7 @@
 package Cha03;
 
+import Cha01.Queue;
+
 public class BinarySearchST<Key extends Comparable<Key>,Value> {
     private Key[] keys;
     private Value[] values;
@@ -33,10 +35,10 @@ public class BinarySearchST<Key extends Comparable<Key>,Value> {
         return lo;//不存在该键时，返回表中小于它的键的数量
     }
 
-    public void put(Key key,Value val){
+    public void put(Key k,Value val){
         //查找键，找到则更新值，否则创建新的元素
-        int i = rank(key);
-        if (i < N && keys[i].compareTo(key) == 0){
+        int i = rank(k);
+        if (i < N && keys[i].compareTo(k) == 0){
             values[i] = val;
             return;
         }
@@ -44,7 +46,7 @@ public class BinarySearchST<Key extends Comparable<Key>,Value> {
             keys[i] = keys[j - 1];
             values[j] = values[j - 1];
         }
-        keys[i] = key;//填充键数组
+        keys[i] = k;//填充键数组
         values[i] = val;//填充值数组
         N++;
     }
@@ -75,6 +77,45 @@ public class BinarySearchST<Key extends Comparable<Key>,Value> {
         values[N] = null;
         //if (N > 0 && N == keys.length/4){resize(keys.length/2);}
     }
+    public Key min(){
+        return keys[0];
+    }
+    public Key max(){
+        return keys[N-1];
+    }
+    public Key select(int n){return keys[n];}
+
+    public Key ceiling(Key k){
+        int i = rank(k);
+        return keys[i];
+    }
+    /*public Iterable<Key>keys(Key lo,Key hi){
+        Queue<Key> q = new Queue<>();
+        for (int i = rank(lo);i < rank(hi);i++){
+            q.enqueue(keys[i]);
+        }
+        if (contanis(hi)){
+        q.enqueue(keys[rank[hi]]);
+        }
+        return q;
+    }*/
+
+    /**
+     * 递归版
+     */
+    /*public int rank(Key k,int lo,int hi){//
+        if (hi < lo){
+            return lo;
+        }
+        int mid = lo + (hi -lo)/2;
+        int cmp = k.compareTo(keys[mid]);
+        if (cmp > 0){
+            rank(k,mid+1,hi);
+        }else if (cmp < 0) {
+            rank(k, lo, mid - 1);
+        }else return mid;
+        return lo;
+    }*/
 
     public void pull(){
         for (int i = 0;i < N;i++){
