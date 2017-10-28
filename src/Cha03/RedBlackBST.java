@@ -77,7 +77,7 @@ public class RedBlackBST<Key extends Comparable<Key>,Value> {
             h.N = size(h.left) + size(h.right) + 1;
             return h;
     }
-    public Value get(Key key){
+    public Value get(Key key){//键为key的结点的值(value)
         return get(root,key);
     }
     private Value get(Node x,Key key){
@@ -90,5 +90,72 @@ public class RedBlackBST<Key extends Comparable<Key>,Value> {
             }else { return x.value;}
         }
         return null;
+    }
+    public int rank(Key key){//键为key的结点的排名
+        return rank(root,key);
+    }
+    private int rank(Node x,Key key){
+        if (x == null){return 0;}
+        int cmp = key.compareTo(x.key);
+        if (cmp < 0){ return rank(x.left,key);}
+        else if (cmp > 0){
+            return 1 + size(x.left) + rank(x.right,key);
+        }
+        else { return size(x.left);}
+    }
+    public Key select(int n){//找出排名为n的结点的键
+        return select(root,n).key;
+    }
+    private Node select(Node x,int n){
+        if (x == null){ return null;}
+        int t = size(x.left);
+        if (t > n){
+            return select(x.left,n);
+        }else if (t < n){
+            return select(x.right,n - t -1);//n - t -1为右子结点数
+        }else {return x;}
+    }
+    public Key floor(Key key){//小于或等于它的最大值
+        Node x = floor(root,key);
+        if (x == null){return null;}
+        return x.key;
+    }
+    private Node floor(Node x,Key key) {
+        if (x == null) {
+            return null;
+        }
+        int cmp = key.compareTo(x.key);
+        if (cmp == 0) {
+            return x;
+        }
+        if (cmp < 0) {
+            return floor(x.left, key);
+        }
+        //如果给定的键key大于二叉树的根结点，
+        Node t = floor(x.right, key);
+        //那么只有当根结点右子树中存在小于等于key的结点时，小于等于key的最大键才会出现在右子树。
+        if (t != null) {
+            return t;
+        } else return x;
+    }
+    public Key ceiling(Key key){
+        Node x = ceiling(root,key);
+        if (x == null){return null;}
+        return x.key;
+    }
+    private Node ceiling(Node x,Key key){
+        if (x == null){return null;}
+        int cmp = key.compareTo(x.key);
+        if (cmp > 0){
+            return ceiling(x.right,key);
+        }
+        if (cmp == 0){
+            return x;
+        }
+        Node t = ceiling(x.left,key);
+        if (t != null){
+            return t;
+        }
+        else return x;
     }
 }

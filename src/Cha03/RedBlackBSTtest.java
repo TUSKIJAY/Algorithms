@@ -14,7 +14,10 @@ public class RedBlackBSTtest {
         redBlackBST.put("P",8);
         redBlackBST.put("L",9);
 
-        System.out.println(redBlackBST.get("A"));
-        System.out.println(redBlackBST.size());
+//        System.out.println(redBlackBST.get("A"));
+//        System.out.println(redBlackBST.rank("A"));
+//        System.out.println(redBlackBST.select(0));
+        System.out.println(redBlackBST.ceiling("D"));
+        System.out.println(redBlackBST.floor("D"));
     }
 }
