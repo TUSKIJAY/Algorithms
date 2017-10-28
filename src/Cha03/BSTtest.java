@@ -1,5 +1,7 @@
 package Cha03;
 
+import edu.princeton.cs.algs4.BST;
+import edu.princeton.cs.algs4.Queue;
 import edu.princeton.cs.algs4.StdOut;
 
 public class BSTtest {
@@ -19,7 +21,18 @@ public class BSTtest {
         //System.out.println(bst.get("A"));
         //System.out.println(bst.min());
         //System.out.println(bst.max());
-        StdOut.println(bst.floor("P"));
-        StdOut.println(bst.ceiling("P"));
+        //StdOut.println(bst.rank("R"));
+        //StdOut.println(bst.select(6));
+        //StdOut.println(bst.floor("P"));
+        //StdOut.println(bst.ceiling("P"));
+        for (Object tree:bst.keys()){
+            StdOut.print(tree + " ");
+        }
+        bst.delete("B");
+        StdOut.println(bst.rank("Z"));
+        //StdOut.println(bst.get("A"));
+        for (Object tree:bst.keys()){
+            StdOut.print(tree + " ");
+        }
     }
 }
