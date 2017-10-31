@@ -26,16 +26,17 @@ public class Quick {
         Comparable v = a[lo];//切分元素
         while (true){
             //扫描左右，检查扫描是否结束并交换元素
-            while (less(a[++i],v)){
-                if (i == hi)
+            while (less(a[++i],v)){//为false时跳出
+                if (i == hi) {
                     break;//i加至最大时跳出
+                }
             }
-            while (less(v,a[--j])){
-                if (j == lo)
+            while (less(v,a[--j])){//为false时跳出
+                if (j == lo) {
                     break;//j减至最小时跳出
+                }
             }
-            if (i >= j)//i大于等于j时跳出
-                break;
+            if (i >= j)break;//i大于等于j时跳出
 
             exch(a,i,j);
         }
@@ -43,23 +44,8 @@ public class Quick {
         return j;//a[lo..j-1] <= a[j] <= a[j+1..hi]达成
     }
     public static void main(String[] args){
-        String[] a =new String[16];
-        a[0] = ("Q");
-        a[1] = ("U");
-        a[2] = ("I");
-        a[3] = ("C");
-        a[4] = ("K");
-        a[5] = ("S");
-        a[6] = ("O");
-        a[7] = ("R");
-        a[8] = ("T");
-        a[9] = ("E");
-        a[10] = ("X");
-        a[11] = ("A");
-        a[12] = ("M");
-        a[13] = ("P");
-        a[14] = ("L");
-        a[15] = ("E");
+        String[] a ={"Q","U","I","C","K","S","O","R","T","E","X",
+                "A","M","P","L","E"};
         for (int i = 0;i < 16;i++){
             System.out.print(a[i]);
             System.out.print(" ");

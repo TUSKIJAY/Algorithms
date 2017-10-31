@@ -28,11 +28,21 @@ public class BST<Key extends Comparable<Key>,Value> {
     private Value get(Node x,Key key){
         //在以x为根结点的子树中查找并返回key所对应的值；
         //如果找不到则返回null
-        if (x == null){return null;}
+        /*if (x == null){return null;}
         int cmp = key.compareTo(x.key);
         if (cmp < 0){return get(x.left,key);}
         else if (cmp > 0){return get(x.right,key);}
-        else return x.value;
+        else return x.value;*/
+        if (x != null){
+            int cmp = key.compareTo(x.key);
+            if (cmp == 0){return x.value;}
+            if (cmp < 0){
+                x = x.left;
+            }else if (cmp > 0){
+                x = x.right;
+            }
+        }
+        return null;
     }
     public void put(Key key,Value value){ root = put(root,key,value);}
     private Node put(Node x,Key key,Value value){

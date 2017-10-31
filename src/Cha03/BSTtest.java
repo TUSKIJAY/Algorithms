@@ -30,7 +30,7 @@ public class BSTtest {
         }
         bst.delete("B");
         StdOut.println(bst.rank("Z"));
-        //StdOut.println(bst.get("A"));
+        StdOut.println(bst.get("A"));
         for (Object tree:bst.keys()){
             StdOut.print(tree + " ");
         }
