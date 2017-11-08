@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d0300f6-b24b-433c-998a-df8efffa67cb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha03/FileIndex.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha03/LinearProbingHashST.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha03/LookupCSV.java" />
@@ -12,18 +11,18 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha03/ex2.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha03/ex3.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha03/ex4.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha04/DepthFirstSearch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha04/Graph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha04/TestSearch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha04/tinyG.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha04/DepthFirstPaths.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha04/TestPaths.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/Cha02/Quick.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/Cha02/Quick.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/Cha02/Shell.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/Cha02/Shell.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cha01/Bag.java" afterPath="$PROJECT_DIR$/src/Cha01/Bag.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cha01/Stack.java" afterPath="$PROJECT_DIR$/src/Cha01/Stack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cha02/Quick.java" afterPath="$PROJECT_DIR$/src/Cha02/Quick.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cha02/Shell.java" afterPath="$PROJECT_DIR$/src/Cha02/Shell.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cha03/SequentialSearchST.java" afterPath="$PROJECT_DIR$/src/Cha03/SequentialSearchST.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cha03/Test.java" afterPath="$PROJECT_DIR$/src/Cha03/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cha04/Graph.java" afterPath="$PROJECT_DIR$/src/Cha04/Graph.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +33,70 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cha01/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepthFirstSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cha04/DepthFirstSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepthFirstPaths.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Cha04/DepthFirstPaths.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestPaths.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cha04/TestPaths.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29">
+              <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bag.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cha01/Bag.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cha04/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="957">
+              <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,8 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/net/URL.class" />
-        <option value="$PROJECT_DIR$/src/Cha02/Multiway.java" />
         <option value="$PROJECT_DIR$/src/Cha02/Test.java" />
         <option value="$PROJECT_DIR$/src/Cha02/Heapsort.java" />
         <option value="$PROJECT_DIR$/src/Cha03/tale.txt" />
@@ -69,7 +129,6 @@
         <option value="$PROJECT_DIR$/src/Cha01/Stats.java" />
         <option value="$PROJECT_DIR$/src/Cha01/Reverse.java" />
         <option value="$PROJECT_DIR$/src/Cha01/Queue.java" />
-        <option value="$PROJECT_DIR$/src/Cha01/Stack.java" />
         <option value="$PROJECT_DIR$/src/Cha03/tinyTale.txt" />
         <option value="$PROJECT_DIR$/src/Cha03/2.txt" />
         <option value="$PROJECT_DIR$/src/Cha03/3.txt" />
@@ -102,9 +161,12 @@
         <option value="$PROJECT_DIR$/src/Cha03/SparseVector.java" />
         <option value="$PROJECT_DIR$/src/Cha01/Bag.java" />
         <option value="$PROJECT_DIR$/src/Cha04/Search.java" />
-        <option value="$PROJECT_DIR$/src/Cha04/Graph.java" />
         <option value="$PROJECT_DIR$/src/Cha04/TestSearch.java" />
         <option value="$PROJECT_DIR$/src/Cha04/tinyG.txt" />
+        <option value="$PROJECT_DIR$/src/Cha04/Graph.java" />
+        <option value="$PROJECT_DIR$/src/Cha04/TestPaths.java" />
+        <option value="$PROJECT_DIR$/src/Cha04/DepthFirstPaths.java" />
+        <option value="$PROJECT_DIR$/src/Cha01/Stack.java" />
       </list>
     </option>
   </component>
@@ -179,9 +241,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,7 +259,7 @@
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Cha01" type="462c0819:PsiDirectoryNode" />
+              <item name="Cha04" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -208,6 +269,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestSearch">
+  <component name="RunManager" selected="Application.TestPaths">
     <configuration name="FileIndex" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Cha03.FileIndex" />
@@ -269,25 +331,6 @@
       <module name="Algorithms" />
       <envs />
     </configuration>
-    <configuration name="HashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Cha03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Cha03.HashCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithms" />
-      <envs />
-    </configuration>
     <configuration name="Quick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -307,14 +350,14 @@
       <module name="Algorithms" />
       <envs />
     </configuration>
-    <configuration name="SeparateChainingHashST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Cha03.*" />
+          <option name="PATTERN" value="Cha01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Cha03.SeparateChainingHashST" />
+      <option name="MAIN_CLASS_NAME" value="Cha01.Stack" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -337,6 +380,25 @@
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithms" />
+      <envs />
+    </configuration>
+    <configuration name="TestPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Cha04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Cha04.TestPaths" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="Cha04/tinyG.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -448,18 +510,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.FileIndex" />
       <item index="1" class="java.lang.String" itemvalue="Application.Quick" />
-      <item index="2" class="java.lang.String" itemvalue="Application.HashCode" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SeparateChainingHashST" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FrequencyCounter" />
-      <item index="5" class="java.lang.String" itemvalue="Application.TestSearch" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FrequencyCounter" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestSearch" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestPaths" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Stack" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestSearch" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FrequencyCounter" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Quick" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SeparateChainingHashST" />
-        <item index="4" class="java.lang.String" itemvalue="Application.HashCode" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestPaths" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Stack" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestSearch" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FrequencyCounter" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Quick" />
       </list>
     </recent_temporary>
   </component>
@@ -545,14 +607,30 @@
       <option name="project" value="LOCAL" />
       <updated>1509436762971</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="4.1无向图">
+      <created>1509889360916</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1509889360916</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -560,7 +638,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20196672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21104388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -615,7 +693,8 @@
     <MESSAGE value="3.3 平衡查找树，红黑树" />
     <MESSAGE value="3.3 平衡查找树，红黑树(2-3树查找)添加rank,select,ceiling,floor等方法" />
     <MESSAGE value="2.2 2.3排序算法的总结" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.2 2.3排序算法的总结" />
+    <MESSAGE value="4.1无向图" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.1无向图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -686,34 +765,18 @@
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Cha04/TestPaths.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Cha03/RedBlackBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="83" column="23" lean-forward="false" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/RedBlackBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="155" column="20" lean-forward="false" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha02/Commn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha03/ceshi.java" />
     <entry file="file://$PROJECT_DIR$/src/Cha02/MaxPQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -878,13 +941,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cha01/aminoI.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Cha01/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="68" column="36" lean-forward="true" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cha03/BinarySearchST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-696">
@@ -949,18 +1005,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cha03/SparseVector.java" />
-    <entry file="file://$PROJECT_DIR$/src/Cha01/Bag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/SET.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -968,9 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9222">
           <caret line="345" column="0" lean-forward="false" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -981,37 +1026,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/Bag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/DepthFirstDirectedPaths.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="135" column="20" lean-forward="true" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/TestSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,19 +1041,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha01/ResizingArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha01/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="68" column="36" lean-forward="false" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cha04/tinyG.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/Bag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="125" column="24" lean-forward="true" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/TestSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha01/Bag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cha04/DepthFirstSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="377">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/TestPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha01/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/DepthFirstPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -10,7 +10,6 @@ public class Graph {
 
     /**
      * 创建一个含有V 个顶点但不含边的图
-     * @param V
      */
     public Graph(int V){
         this.V = V;
@@ -22,7 +21,6 @@ public class Graph {
 
     /**
      * 从标准输入流in读入一幅图
-     * @param in
      */
     public Graph(In in){
         this(in.readInt());//读取V并将图初始化
@@ -39,8 +37,6 @@ public class Graph {
 
     /**
      * 向图中添加一条边v-w
-     * @param v
-     * @param w
      */
     public void addEdge(int v,int w){
         adj[v].add(w);//将w添加到v的链表中
@@ -50,16 +46,11 @@ public class Graph {
 
     /**
      * 和v相邻的所有顶点
-     * @param v
-     * @return
      */
     public Iterable<Integer>adj(int v){return adj[v];}
 
     /**
      * 计算v的度数
-     * @param G
-     * @param v
-     * @return
      */
     public static int degree(Graph G,int v){
         int degree = 0;
@@ -69,8 +60,6 @@ public class Graph {
 
     /**
      * 计算所有顶点最大度数
-     * @param G
-     * @return
      */
     public static int maxDegree(Graph G){
         int max = 0;
@@ -83,15 +72,11 @@ public class Graph {
 
     /**
      * 计算所有顶点的平均度数
-     * @param G
-     * @return
      */
     public static double avgDegree(Graph G){ return 2.0*G.E()/G.V();}
 
     /**
      * 计算自环的个数
-     * @param G
-     * @return
      */
     public static int numberofSelfLoops(Graph G){
         int count = 0;
