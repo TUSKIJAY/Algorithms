@@ -1,7 +1,6 @@
 package Cha04;
 
 import Cha01.Stack;
-import edu.princeton.cs.algs4.In;
 
 public class DepthFirstPaths {
     private boolean[] marked;//这个顶点上调用过dfs()了吗？
@@ -26,14 +25,6 @@ public class DepthFirstPaths {
             }
         }
     }
-
-    /**
-     *是否存在从s到v的路径
-     */
-    public boolean hasPathTo(int v){
-        return marked[v];
-    }
-
     /**
      *s到v的路径，如果不存在则返回null
      */
@@ -46,5 +37,11 @@ public class DepthFirstPaths {
         path.push(s);
         //System.out.print(path.peek() + " ");
         return path;
+    }
+    /**
+     *是否存在从s到v的路径
+     */
+    public boolean hasPathTo(int v){
+        return marked[v];
     }
 }

@@ -8,7 +8,7 @@ public class TestSearch {
         Graph G = new Graph(new In(args[0]));
         int s = Integer.parseInt(args[1]);
         DepthFirstSearch depthFirstSearch = new DepthFirstSearch(G,s);
-
+        System.out.println(G.toString());
         for (int v = 0;v < G.V();v++) {
             if (depthFirstSearch.marked(v))
                 StdOut.print(v + " ");

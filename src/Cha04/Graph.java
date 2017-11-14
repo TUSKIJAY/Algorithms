@@ -6,13 +6,14 @@ import edu.princeton.cs.algs4.In;
 public class Graph {
     private final int V;//顶点的数目
     private int E;//边的数目
-        private Bag<Integer>[] adj;//邻接表
+    private Bag<Integer>[] adj;//邻接表
 
     /**
      * 创建一个含有V 个顶点但不含边的图
      */
     public Graph(int V){
         this.V = V;
+        this.E = 0;
         adj = (Bag<Integer>[]) new Bag[V];//创建领接表
         for (int v = 0;v < V;v++){//将所有链表初始化为空
             adj[v] = new Bag<>();
@@ -32,17 +33,17 @@ public class Graph {
             addEdge(v,w);//添加一条连接它们的边
         }
     }
-    public int V(){return V;}
-    public int E(){return E;}
-
     /**
      * 向图中添加一条边v-w
      */
     public void addEdge(int v,int w){
-        adj[v].add(w);//将w添加到v的链表中
         adj[w].add(v);//将v添加到w的链表中
+        adj[v].add(w);//将w添加到v的链表中
         E++;
     }
+
+    public int V(){return V;}
+    public int E(){return E;}
 
     /**
      * 和v相邻的所有顶点
@@ -90,11 +91,10 @@ public class Graph {
 
     /**
      * 图的领接表的字符串表示
-     * @return
      */
     @Override
     public String toString() {
-        String s = V + "vertices," + E + "edges\n";
+        String s = V + " vertices," + E + " edges\n";
         for (int v = 0;v < V;v++){
             s += v + " :";
             for (int w:this.adj(v)){
@@ -104,4 +104,5 @@ public class Graph {
         }
         return s;
     }
+
 }

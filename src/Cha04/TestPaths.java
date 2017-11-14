@@ -7,7 +7,8 @@ public class TestPaths {
         Graph G = new Graph(new In(args[0]));
         In in = new In();
         int s = in.readInt();
-        DepthFirstPaths search = new DepthFirstPaths(G,s);
+        //DepthFirstPaths search = new DepthFirstPaths(G,s);
+        BreathFirstPaths search = new BreathFirstPaths(G,s);
         for (int v = 0;v < G.V();v++){
             System.out.print(s + " to " + v + ":");
             if (search.hasPathTo(v)) {
