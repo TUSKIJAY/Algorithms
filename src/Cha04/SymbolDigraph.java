@@ -2,17 +2,13 @@ package Cha04;
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.ST;
-import edu.princeton.cs.algs4.StdIn;
 
-/**
- * 符号图
- */
-public class SymbolGraph {
+public class SymbolDigraph {
     private ST<String,Integer> st;//符号名->索引
     private String[] keys;//索引->符号名
-    private Graph G;//图
+    private Digraph G;//图
 
-    public SymbolGraph(String stream,String sp){
+    public SymbolDigraph(String stream,String sp){
         st = new ST<>();
         In in = new In(stream);//第一遍
 
@@ -29,7 +25,7 @@ public class SymbolGraph {
             keys[st.get(name)] = name;
         }
 
-        G = new Graph(st.size());
+        G = new Digraph(st.size());
 
         in = new In(stream);//第二遍
         while (in.hasNextLine()){//构造图
@@ -42,20 +38,5 @@ public class SymbolGraph {
     public boolean contanis(String s){ return st.contains(s);}
     public int index(String s){ return st.get(s);}
     public String name(int v){ return keys[v];}
-    public Graph G(){ return G;}
-
-    public static void main(String[] args){
-        String filename = args[0];
-        String delim = args[1];
-        SymbolGraph sg = new SymbolGraph(filename,delim);
-
-        Graph G = sg.G();
-
-        while (StdIn.hasNextLine()){
-            String source = StdIn.readLine();
-            for (int w: G.adj(sg.index(source))){
-                System.out.println(" "+ sg.name(w));
-            }
-        }
-    }
+    public Digraph G(){ return G;}
 }
