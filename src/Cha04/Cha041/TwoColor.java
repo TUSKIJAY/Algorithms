@@ -1,4 +1,4 @@
-package Cha04;
+package Cha04.Cha041;
 
 /**
  * G是否为二分图（双色问题）

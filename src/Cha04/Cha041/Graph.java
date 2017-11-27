@@ -1,12 +1,9 @@
-package Cha04;
+package Cha04.Cha041;
 
 import edu.princeton.cs.algs4.Bag;
 import edu.princeton.cs.algs4.In;
 
-/**
- * 有向图
- */
-public class Digraph {
+public class Graph {
     private final int V;//顶点的数目
     private int E;//边的数目
     private Bag<Integer>[] adj;//邻接表
@@ -14,7 +11,7 @@ public class Digraph {
     /**
      * 创建一个含有V 个顶点但不含边的图
      */
-    public Digraph(int V){
+    public Graph(int V){
         this.V = V;
         this.E = 0;
         adj = (Bag<Integer>[]) new Bag[V];//创建领接表
@@ -22,10 +19,11 @@ public class Digraph {
             adj[v] = new Bag<>();
         }
     }
+
     /**
      * 从标准输入流in读入一幅图
      */
-    public Digraph(In in){
+    public Graph(In in){
         this(in.readInt());//读取V并将图初始化
         int E = in.readInt();//读取E(边数)
         for (int i = 0;i < E;i++){
@@ -39,6 +37,7 @@ public class Digraph {
      * 向图中添加一条边v-w
      */
     public void addEdge(int v,int w){
+        adj[w].add(v);//将v添加到w的链表中
         adj[v].add(w);//将w添加到v的链表中
         E++;
     }
@@ -52,22 +51,49 @@ public class Digraph {
     public Iterable<Integer>adj(int v){return adj[v];}
 
     /**
-     * @return 该图反向图
+     * 计算v的度数
      */
-    public Digraph reverse(){
-        Digraph R = new Digraph(V);
-        for (int v = 0;v < V;v++) {
-            for (int w : adj(v)) {
-                R.addEdge(w, v);
+    public static int degree(Graph G,int v){
+        int degree = 0;
+        for (int w:G.adj(v))degree++;
+        return degree;
+    }
+
+    /**
+     * 计算所有顶点最大度数
+     */
+    public static int maxDegree(Graph G){
+        int max = 0;
+        for (int v = 0;v < G.V();v++){
+            if (degree(G,v) > max)
+                max = degree(G,v);
+        }
+        return max;
+    }
+
+    /**
+     * 计算所有顶点的平均度数
+     */
+    public static double avgDegree(Graph G){ return 2.0*G.E()/G.V();}
+
+    /**
+     * 计算自环的个数
+     */
+    public static int numberofSelfLoops(Graph G){
+        int count = 0;
+        for (int v = 0;v < G.V();v++){
+            for (int w:G.adj(v)){
+                if (v == w)count++;
             }
         }
-        return R;
+        return count/2;//每条边都被记录过两次
     }
+
     /**
      * 图的领接表的字符串表示
      */
     @Override
-    public String toString(){
+    public String toString() {
         StringBuilder s = new StringBuilder(V + " vertices," + E + " edges\n");
         for (int v = 0;v < V;v++){
             s.append(v).append(" :");
@@ -78,10 +104,5 @@ public class Digraph {
         }
         return s.toString();
     }
-    public static void main(String[] args){
-        Digraph G = new Digraph(new In(args[0]));
-        System.out.println(G.toString());
-        System.out.println();
-        System.out.println(G.reverse().toString());
-    }
+
 }

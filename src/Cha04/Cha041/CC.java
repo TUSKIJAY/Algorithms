@@ -1,4 +1,4 @@
-package Cha04;
+package Cha04.Cha041;
 
 import edu.princeton.cs.algs4.Bag;
 import edu.princeton.cs.algs4.In;

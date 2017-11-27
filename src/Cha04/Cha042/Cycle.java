@@ -1,4 +1,6 @@
-package Cha04;
+package Cha04.Cha042;
+
+import Cha04.Cha041.Graph;
 
 /**
  * G是否为无环图

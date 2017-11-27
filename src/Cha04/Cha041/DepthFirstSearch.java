@@ -1,4 +1,4 @@
-package Cha04;
+package Cha04.Cha041;
 
 public class DepthFirstSearch {
     private boolean[] marked;

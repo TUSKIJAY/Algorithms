@@ -1,4 +1,4 @@
-package Cha04;
+package Cha04.Cha042;
 
 import Cha01.Stack;
 import edu.princeton.cs.algs4.In;

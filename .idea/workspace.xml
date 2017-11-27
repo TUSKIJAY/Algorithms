@@ -11,25 +11,44 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha03/ex2.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha03/ex3.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha03/ex4.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha04/DepthFirstDirectedPaths.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha04/DepthFirstOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha04/Digraph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha04/DirectedCycle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha04/DirectedDFS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha04/SymbolDigraph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha04/Topological.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha04/tinyDG.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cha04/Cha042/TransitiveClosure.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/BreathFirstPaths.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha041/BreathFirstPaths.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/CC.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha041/CC.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/Cycle.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha042/Cycle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/DegreeOfSeparation.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha041/DegreeOfSeparation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/DepthFirstDirectedPaths.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha042/DepthFirstDirectedPaths.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/DepthFirstOrder.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha042/DepthFirstOrder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/DepthFirstPaths.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha041/DepthFirstPaths.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/DepthFirstSearch.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha041/DepthFirstSearch.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/Digraph.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha042/Digraph.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/DirectedCycle.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha042/DirectedCycle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/DirectedDFS.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha042/DirectedDFS.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/GG.txt" afterPath="$PROJECT_DIR$/src/Cha04/Cha041/GG.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/Graph.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha041/Graph.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/KosarajuSCC.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha042/KosarajuSCC.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/SymbolDigraph.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha042/SymbolDigraph.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/SymbolGraph.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha041/SymbolGraph.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/TestPaths.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha041/TestPaths.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/TestSearch.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha041/TestSearch.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/Topological.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha042/Topological.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/TwoColor.java" afterPath="$PROJECT_DIR$/src/Cha04/Cha041/TwoColor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/movies.txt" afterPath="$PROJECT_DIR$/src/Cha04/Cha041/movies.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/routes.txt" afterPath="$PROJECT_DIR$/src/Cha04/Cha041/routes.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/tinyDG.txt" afterPath="$PROJECT_DIR$/src/Cha04/Cha042/tinyDG.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cha04/tinyG.txt" afterPath="$PROJECT_DIR$/src/Cha04/Cha041/tinyG.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/Cha02/MaxPQ.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/Cha02/MaxPQ.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/Cha02/Multiway.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/Cha02/Multiway.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/Cha02/Quick.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/Cha02/Quick.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/Cha02/Shell.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/Cha02/Shell.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cha01/Bag.java" afterPath="$PROJECT_DIR$/src/Cha01/Bag.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cha01/Stack.java" afterPath="$PROJECT_DIR$/src/Cha01/Stack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cha02/MaxPQ.java" afterPath="$PROJECT_DIR$/src/Cha02/MaxPQ.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cha02/Multiway.java" afterPath="$PROJECT_DIR$/src/Cha02/Multiway.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cha02/Quick.java" afterPath="$PROJECT_DIR$/src/Cha02/Quick.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cha02/Shell.java" afterPath="$PROJECT_DIR$/src/Cha02/Shell.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cha03/SequentialSearchST.java" afterPath="$PROJECT_DIR$/src/Cha03/SequentialSearchST.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cha03/Test.java" afterPath="$PROJECT_DIR$/src/Cha03/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cha04/Graph.java" afterPath="$PROJECT_DIR$/src/Cha04/Graph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cha04/SymbolGraph.java" afterPath="$PROJECT_DIR$/src/Cha04/SymbolGraph.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,50 +60,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Digraph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Cha04/Digraph.java">
+      <file leaf-file-name="KosarajuSCC.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Cha04/Cha042/KosarajuSCC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1247">
-              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="174">
+              <caret line="56" column="41" lean-forward="false" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DirectedCycle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Cha04/DirectedCycle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="15" column="37" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="15" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DepthFirstOrder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Cha04/DepthFirstOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Topological.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Cha04/Topological.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-              <folding>
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,6 +81,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>count</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -110,14 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Cha03/RedBlackBST.java" />
-        <option value="$PROJECT_DIR$/src/Cha03/RedBlackBSTtest.java" />
-        <option value="$PROJECT_DIR$/src/Cha03/BST.java" />
-        <option value="$PROJECT_DIR$/src/Cha03/BSTtest.java" />
-        <option value="$PROJECT_DIR$/src/Cha03/ceshi.java" />
-        <option value="$PROJECT_DIR$/src/Cha02/Insertion.java" />
-        <option value="$PROJECT_DIR$/src/Cha02/TRansaction.java" />
-        <option value="$PROJECT_DIR$/src/Cha02/Merge.java" />
         <option value="$PROJECT_DIR$/src/Cha02/MergeBU.java" />
         <option value="$PROJECT_DIR$/src/Cha03/Test.java" />
         <option value="$PROJECT_DIR$/src/Cha03/HashCode.java" />
@@ -136,7 +115,6 @@
         <option value="$PROJECT_DIR$/src/Cha03/SparseVector.java" />
         <option value="$PROJECT_DIR$/src/Cha01/Bag.java" />
         <option value="$PROJECT_DIR$/src/Cha04/Search.java" />
-        <option value="$PROJECT_DIR$/src/Cha01/Stack.java" />
         <option value="$PROJECT_DIR$/src/Cha02/Quick.java" />
         <option value="$PROJECT_DIR$/src/Cha04/TestSearch.java" />
         <option value="$PROJECT_DIR$/src/Cha04/DepthFirstPaths.java" />
@@ -154,13 +132,22 @@
         <option value="$PROJECT_DIR$/src/Cha04/SymbolGraph.java" />
         <option value="$PROJECT_DIR$/src/Cha04/Graph.java" />
         <option value="$PROJECT_DIR$/src/Cha04/DirectedDFS.java" />
+        <option value="$PROJECT_DIR$/src/Cha04/DirectedCycle.java" />
+        <option value="$PROJECT_DIR$/src/Cha04/SymbolDigraph.java" />
+        <option value="$PROJECT_DIR$/src/Cha04/Topological.java" />
+        <option value="$PROJECT_DIR$/src/Cha02/Test.java" />
+        <option value="$PROJECT_DIR$/src/Cha02/Multiway.java" />
+        <option value="$PROJECT_DIR$/src/Cha01/HanNota.java" />
+        <option value="$PROJECT_DIR$/src/Cha02/MaxPQ.java" />
         <option value="$PROJECT_DIR$/src/Cha04/tinyDG.txt" />
         <option value="$PROJECT_DIR$/src/Cha04/DepthFirstDirectedPaths.java" />
         <option value="$PROJECT_DIR$/src/Cha04/Digraph.java" />
-        <option value="$PROJECT_DIR$/src/Cha04/DirectedCycle.java" />
+        <option value="$PROJECT_DIR$/src/Cha01/Stack.java" />
+        <option value="$PROJECT_DIR$/src/Cha04/KosarajuSCC.java" />
         <option value="$PROJECT_DIR$/src/Cha04/DepthFirstOrder.java" />
-        <option value="$PROJECT_DIR$/src/Cha04/SymbolDigraph.java" />
-        <option value="$PROJECT_DIR$/src/Cha04/Topological.java" />
+        <option value="$PROJECT_DIR$/src/Cha04/Test.java" />
+        <option value="$PROJECT_DIR$/src/Cha04/TransitiveClosure.java" />
+        <option value="$PROJECT_DIR$/src/Cha04/Cha042/DepthFirstDirectedPaths.java" />
       </list>
     </option>
   </component>
@@ -235,6 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,12 +237,6 @@
             </path>
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Cha04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -263,7 +245,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,6 +255,10 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\TUSKI\Desktop\JAVA\Algorithms\src\Cha04\Cha041" />
+      <recent name="C:\Users\TUSKI\Desktop\JAVA\Algorithms\src\Cha04\Cha042" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\TUSKI\Desktop\JAVA\Algorithms\src\Cha03" />
       <recent name="C:\Users\TUSKI\Desktop\JAVA\Algorithms\src\Cha02" />
@@ -291,45 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DepthFirstDirectedPaths">
-    <configuration name="DepthFirstDirectedPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Cha04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Cha04.DepthFirstDirectedPaths" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="Cha04/tinyDG.txt" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithms" />
-      <envs />
-    </configuration>
-    <configuration name="DirectedDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Cha04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Cha04.DirectedDFS" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="Cha04/tinyDG.txt 1 2 6" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithms" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.KosarajuSCC">
     <configuration name="FileIndex" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Cha03.FileIndex" />
@@ -344,17 +291,17 @@
       <module name="Algorithms" />
       <envs />
     </configuration>
-    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="KosarajuSCC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Cha02.*" />
+          <option name="PATTERN" value="Cha04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Cha02.Merge" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="Cha04.KosarajuSCC" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="Cha04/tinyDG.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -363,17 +310,17 @@
       <module name="Algorithms" />
       <envs />
     </configuration>
-    <configuration name="MergeBU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="KosarajuSCC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Cha02.*" />
+          <option name="PATTERN" value="Cha04.Cha042.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Cha02.MergeBU" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="Cha04.Cha042.KosarajuSCC" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="Cha04/Cha042/tinyDG.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -390,25 +337,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Cha03.Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithms" />
-      <envs />
-    </configuration>
-    <configuration name="TestPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Cha04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Cha04.TestPaths" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -501,21 +429,14 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="6">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.FileIndex" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Merge" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MergeBU" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DirectedDFS" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestPaths" />
-      <item index="5" class="java.lang.String" itemvalue="Application.DepthFirstDirectedPaths" />
+      <item index="1" class="java.lang.String" itemvalue="Application.KosarajuSCC" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DepthFirstDirectedPaths" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestPaths" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DirectedDFS" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Merge" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MergeBU" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.KosarajuSCC" />
+        <item index="1" class="java.lang.String" itemvalue="Application.KosarajuSCC" />
       </list>
     </recent_temporary>
   </component>
@@ -629,7 +550,21 @@
       <option name="project" value="LOCAL" />
       <updated>1510660854626</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="4.2有向图--4.2.4环和有向无环图">
+      <created>1511171220003</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1511171220003</updated>
+    </task>
+    <task id="LOCAL-00015" summary="4.2有向图--4.2.5有向图中的强连通性和Kosaraju算法">
+      <created>1511775692611</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1511775692613</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -643,7 +578,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -651,16 +585,16 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3014827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17170954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19213313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3970346" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -713,7 +647,9 @@
     <MESSAGE value="4.1无向图深度优先搜索" />
     <MESSAGE value="4.1无向图广度优先搜索" />
     <MESSAGE value="4.1符号图" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.1符号图" />
+    <MESSAGE value="4.2有向图--4.2.4环和有向无环图" />
+    <MESSAGE value="4.2有向图--4.2.5有向图中的强连通性和Kosaraju算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.2有向图--4.2.5有向图中的强连通性和Kosaraju算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -779,153 +715,65 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Cha04/TestSearch.java</url>
+          <url>file://$PROJECT_DIR$/src/Cha04/Cha041/TestSearch.java</url>
           <line>13</line>
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Cha04/TestPaths.java</url>
+          <url>file://$PROJECT_DIR$/src/Cha04/Cha041/TestPaths.java</url>
           <line>13</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Cha04/SymbolGraph.java</url>
+          <url>file://$PROJECT_DIR$/src/Cha04/Cha041/SymbolGraph.java</url>
           <line>47</line>
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Cha04/DepthFirstDirectedPaths.java</url>
+          <url>file://$PROJECT_DIR$/src/Cha04/Cha042/DepthFirstDirectedPaths.java</url>
           <line>54</line>
           <properties />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Cha02/MaxPQ.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Cha02/Multiway.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Cha04/Cha042/Digraph.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Cha04/Cha042/KosarajuSCC.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="47" />
+      <option name="time" value="58" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="G" />
+        <watch expression="reverse.adj[1]" />
+        <watch expression="order.reversePost.first" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Cha03/LookupIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha03/ex1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha03/ex2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha03/ex3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha03/ex4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha03/FrequencyCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha03/FileIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha03/SparseVector.java" />
-    <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/SET.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/StdOut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="197" column="0" lean-forward="false" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/DepthFirstDirectedPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="135" column="20" lean-forward="true" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha01/Stats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha01/ResizingArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-232">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha02/Quick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="55" column="12" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha01/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/lang/Iterable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/lang/Integer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cha01/Text.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -947,22 +795,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/movies.txt">
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha041/movies.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121423">
           <caret line="4187" column="367" lean-forward="false" selection-start-line="4187" selection-start-column="367" selection-end-line="4187" selection-end-column="367" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/CC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/GG.txt">
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha041/GG.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
@@ -973,7 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="195" column="5" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="195" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -981,22 +820,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="276" column="0" lean-forward="false" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
-          <folding>
-            <element signature="e#10157#10158#0" expanded="false" />
-            <element signature="e#10201#10202#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/Bag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/routes.txt">
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha041/routes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
@@ -1010,46 +837,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/DegreeOfSeparation.java">
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha041/DegreeOfSeparation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/TwoColor.java">
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha041/TwoColor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/Cycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/DepthFirstSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha041/DepthFirstSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/In.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7192">
-          <caret line="275" column="31" lean-forward="false" selection-start-line="275" selection-start-column="31" selection-end-line="275" selection-end-column="31" />
-          <folding>
-            <element signature="e#9214#9215#0" expanded="false" />
-            <element signature="e#9258#9259#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1057,23 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1566">
           <caret line="67" column="26" lean-forward="false" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/TestSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha02/Merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,93 +873,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/TestPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/tinyG.txt">
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha041/tinyG.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/DirectedDFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="33" column="63" lean-forward="true" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/BreathFirstPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/Digraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1247">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/DepthFirstPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/DepthFirstDirectedPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1543">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/tinyDG.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/DirectedCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="15" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/SymbolGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha041/SymbolGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="44" column="32" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="44" selection-end-column="32" />
@@ -1181,35 +890,272 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/DepthFirstOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/SymbolDigraph.java">
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha042/SymbolDigraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1021">
           <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha041/BreathFirstPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha042/Cycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha042/Topological.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha041/TestSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha02/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/Cha03/BinarySearchST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3039">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha02/Quick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1537">
+          <caret line="55" column="12" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha02/Merge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha041/DepthFirstPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha041/TestPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/MaxPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1363">
+          <caret line="68" column="13" lean-forward="false" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha02/Multiway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha01/HanNota.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="e#377#378#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha02/MaxPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding>
+            <element signature="method#main#0;class#MaxPQ#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/MinPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="215" column="13" lean-forward="false" selection-start-line="215" selection-start-column="13" selection-end-line="215" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/In.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="235" column="0" lean-forward="false" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/IndexMinPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha042/tinyDG.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha042/DirectedCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="37" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="15" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha041/CC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/DepthFirstOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1392">
+          <caret line="174" column="0" lean-forward="true" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/KosarajuSharirSCC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="193" column="36" lean-forward="true" selection-start-line="193" selection-start-column="8" selection-end-line="193" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha041/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1009">
+          <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/Digraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="223" column="9" lean-forward="true" selection-start-line="223" selection-start-column="9" selection-end-line="223" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../algs4.jar!/edu/princeton/cs/algs4/Bag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha042/Digraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha01/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha042/DepthFirstOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha042/TransitiveClosure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha042/DirectedDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha042/DepthFirstDirectedPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cha04/Topological.java">
+    <entry file="file://$PROJECT_DIR$/src/Cha04/Cha042/KosarajuSCC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="174">
+          <caret line="56" column="41" lean-forward="false" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
           <folding>
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
