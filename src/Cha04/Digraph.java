@@ -56,9 +56,10 @@ public class Digraph {
      */
     public Digraph reverse(){
         Digraph R = new Digraph(V);
-        for (int v = 0;v < V;v++){
-            for (int w : R.adj(v))
-                R.addEdge(w,v);
+        for (int v = 0;v < V;v++) {
+            for (int w : adj(v)) {
+                R.addEdge(w, v);
+            }
         }
         return R;
     }
@@ -66,7 +67,7 @@ public class Digraph {
      * 图的领接表的字符串表示
      */
     @Override
-    public String toString() {
+    public String toString(){
         StringBuilder s = new StringBuilder(V + " vertices," + E + " edges\n");
         for (int v = 0;v < V;v++){
             s.append(v).append(" :");
@@ -76,5 +77,11 @@ public class Digraph {
             s.append("\n");
         }
         return s.toString();
+    }
+    public static void main(String[] args){
+        Digraph G = new Digraph(new In(args[0]));
+        System.out.println(G.toString());
+        System.out.println();
+        System.out.println(G.reverse().toString());
     }
 }
