@@ -2,7 +2,18 @@ package Cha02;
 
 import edu.princeton.cs.algs4.StdOut;
 
-public class Shell extends Commn{
+/**
+ * 希尔排序
+ */
+public class Shell{
+    private static boolean less(Comparable v,Comparable w){
+        return v.compareTo(w)<0;
+    }
+
+    private static void exch(Comparable[] a,int i,int j){
+        Comparable t = a[i];a[i] = a[j];a[j] = t;
+    }
+
     public static void sort(Comparable[] a){
         int N = a.length;
         int h =1;
@@ -17,24 +28,10 @@ public class Shell extends Commn{
             h = h/3;
         }
     }
+
     public static void main(String[] args){
-        String[] a =new String[16];
-        a[0] = ("S");
-        a[1] = ("H");
-        a[2] = ("E");
-        a[3] = ("L");
-        a[4] = ("L");
-        a[5] = ("S");
-        a[6] = ("O");
-        a[7] = ("R");
-        a[8] = ("T");
-        a[9] = ("E");
-        a[10] = ("X");
-        a[11] = ("A");
-        a[12] = ("M");
-        a[13] = ("P");
-        a[14] = ("L");
-        a[15] = ("E");
+        String[] a = {"S","H","E","L","L","S","O","R","T","E",
+                      "X","A","M","P","L","E"};
         for (int i = 0;i < 16;i++){
             System.out.print(a[i]);
             System.out.print(" ");

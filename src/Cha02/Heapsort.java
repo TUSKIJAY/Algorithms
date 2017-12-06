@@ -1,5 +1,8 @@
 package Cha02;
 
+/**
+ * 堆排序
+ */
 public class Heapsort {
     //private int N = 0;
     public  void sort(Comparable[] a){
@@ -14,6 +17,7 @@ public class Heapsort {
             sink(a,1,N);
         }
     }
+
     private  void sink(Comparable[] a,int k,int N){
         while(2*k <= N){
             int j = 2*k;
@@ -25,15 +29,18 @@ public class Heapsort {
             k = j;
         }
     }
+
     private  boolean less(Comparable [] a,int i,int j){
         return a[i].compareTo(a[j]) < 0;
     }
+
     private  void exch(Comparable[] a,int i,int j){
         a[0] = a[i];
         a[i] = a[j];
         a[j] = a[0];
         a[0] = null;
     }
+
     public static void main(String[] args){
         String[] a = new String[12];
         //a[0] = null;

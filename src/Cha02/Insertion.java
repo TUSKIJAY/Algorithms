@@ -1,14 +1,19 @@
 package Cha02;
 
+/**
+ * 插入排序
+ */
 public class Insertion {
     private static boolean less(Comparable v,Comparable w){
         return v.compareTo(w) < 0;
     }
+
     private static void exch(Comparable[] a,int i,int j){
         Comparable t = a[i];
         a[i] = a[j];
         a[j] = t;
     }
+
     private static boolean isSorted(Comparable[] a){
         //测试数组是否有序
         for (int i = 1;i < a.length;i++){
@@ -16,6 +21,7 @@ public class Insertion {
         }
         return true;
     }
+
     public static void sort(Comparable[] a){
         //将a[]按升序排列
         int N = a.length;

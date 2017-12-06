@@ -6,6 +6,10 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.Iterator;
 
+/**
+ * 队列 （链表实现）
+ * @param <Item>
+ */
 public class Queue<Item> implements Iterable<Item> {
     private Node first;
     private Node last;
@@ -15,11 +19,16 @@ public class Queue<Item> implements Iterable<Item> {
         Item item;
         Node next;
     }
+
     public boolean isEmpty(){
         return first == null;
         //return N == 0;
     }
-    public int size(){return N;}
+
+    public int size(){
+        return N;
+    }
+
     public void enqueue(Item item){
         //向表尾添加元素
         Node oldlast = last;
@@ -31,6 +40,7 @@ public class Queue<Item> implements Iterable<Item> {
         }else {oldlast.next = last;}
         N++;
     }
+
     public Item dequeue(){
         //从表头删除元素
         Item item = first.item;
@@ -39,13 +49,16 @@ public class Queue<Item> implements Iterable<Item> {
         N--;
         return item;
     }
+
     @NotNull
     @Override
     public Iterator<Item> iterator() {
         return new ListIterator();
     }
+
     private class ListIterator implements Iterator<Item>{
         private Node current = first;
+
         @Override
         public boolean hasNext() {
             return current != null;
@@ -61,6 +74,7 @@ public class Queue<Item> implements Iterable<Item> {
         @Override
         public void remove() { }
     }
+
     public static void main(String[] args){
         Queue<String> queue = new Queue<>();
         while (!StdIn.isEmpty()){

@@ -6,10 +6,13 @@ import edu.princeton.cs.algs4.StdOut;
 
 import java.util.stream.Stream;
 
+/**
+ * 使用优先队列的多向归并
+ */
 public class Multiway {
     public static void merge(In[] streams){
         int N = streams.length;
-        IndexMinPQ<String> pq = new IndexMinPQ<String>(N);
+        IndexMinPQ<String> pq = new IndexMinPQ<>(N);
 
         for (int i = 0;i < N;i++) {
             if (!streams[i].isEmpty()) {
@@ -17,7 +20,7 @@ public class Multiway {
             }
         }
         while(!pq.isEmpty()){
-                StdOut.println(pq.minKey()+"");
+                StdOut.print(pq.minKey()+" ");
                 int i = pq.delMin();//删除最小元素并返回最小元素索引
 
                 if (!streams[i].isEmpty()){
@@ -26,6 +29,7 @@ public class Multiway {
             }
             StdOut.println();
     }
+
     public static void main(String[] args){
         int N = args.length;
         In[] streams = new In[N];

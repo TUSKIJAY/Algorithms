@@ -2,12 +2,12 @@ package Cha01;
 
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.Iterator;
 
 /**
  * 栈的链表实现
- * @param <Item>
  */
 public class Stack<Item>implements Iterable<Item> {
     private Node first;
@@ -17,10 +17,12 @@ public class Stack<Item>implements Iterable<Item> {
         Item item;
         Node next;
     }
+
     public boolean isEmpty(){
         return first == null;
         //或者return N == 0;
     }
+
     public int size(){return N;}
     public void push(Item item){
         //向栈顶添加元素
@@ -30,15 +32,21 @@ public class Stack<Item>implements Iterable<Item> {
         first.next = oldfirst;
         N++;
     }
-    public Item pop(){
+    /*public Item peek(){
+        return first.item;
+    }*/
+    private Item pop(){
         Item item = first.item;
         first = first.next;
         N--;
         return item;
     }
+
+    @NotNull
     public Iterator<Item>iterator(){
         return new ListIterator();
     }
+
     private class ListIterator implements Iterator<Item>{
         private Node current = first;
         public boolean hasNext(){return current != null;}
@@ -51,6 +59,7 @@ public class Stack<Item>implements Iterable<Item> {
             return item;
         }
     }
+
     public static void main(String[] args){
         Stack<String> stack = new Stack<>();
         while (!StdIn.isEmpty()){
